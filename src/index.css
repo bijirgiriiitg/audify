@@ -1,0 +1,314 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap");
+
+/* custom colors  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --bgcolor: #f1f5fd;
+  --primary-color: #6f5de7;
+  --text-color: #828286;
+  --main-text-color: #333333;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #333333;
+}
+
+/* --------------------------------- navbar css style starts 
+                        -------------------------------------------------------*/
+
+.navbar-bg {
+  background-color: var(--bgcolor);
+  padding: 2rem 0;
+  z-index: 99;
+  position: relative;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+}
+
+.navbar li {
+  padding: 0 2rem;
+}
+
+.navbar li a {
+  font-size: 1.7rem;
+  font-weight: lighter;
+  position: relative;
+}
+
+.navbar li a:hover {
+  color: var(--primary-color) !important;
+  text-shadow: 0 0.2rem 0.3rem rgba(183, 171, 255, 0.5);
+}
+.nav-item {
+  font-weight: bold;
+}
+
+.brand-logo {
+  margin-right: 0.5rem;
+}
+.button {
+  border: none;
+  margin-top: 3.5rem;
+  border-radius: 1rem;
+  height: 5rem;
+  width: 100%;
+  color: #000;
+  text-align: center;
+  text-decoration: none;
+  justify-content: center;
+}
+.butto {
+  background-color: rgb(211, 62, 62);
+  border-radius: 1rem;
+  color: white;
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+.file-image {
+  margin-right: 1rem;
+}
+.buttn {
+  display: flex;
+}
+@media (max-width:300px) {
+  .buttn {
+    display: grid;
+  }
+  .btn-style {
+    margin-bottom: 2rem;
+  }
+  .main-hero-para1 {
+    font-size: 1rem !important;
+  }
+}
+
+.btn-style {
+  width: 12rem;
+  height: 4rem;
+  border-radius: 2rem;
+  color: #fff;
+  position: relative;
+  background-color: var(--primary-color);
+  text-transform: capitalize;
+  font-size: 1.6rem;
+}
+
+.btn-style:first-child {
+  margin-right: 2rem;
+}
+
+.btn-style:hover {
+  border: 0.1rem solid var(--primary-color);
+  background-color: transparent;
+  color: var(--primary-color);
+  box-shadow: 0 0.2rem 0.5rem rgba(183, 171, 255, 0.5);
+}
+
+.btn-style-border {
+  border: 0.1rem solid var(--primary-color);
+  background-color: transparent;
+  position: relative;
+  color: var(--primary-color);
+  box-shadow: 0 0.2rem 0.5rem rgba(183, 171, 255, 0.5);
+}
+
+.btn-style-border:hover {
+  color: #fff;
+  background-color: var(--primary-color);
+  text-transform: capitalize;
+}
+
+/* --------------------------------- Navbar ends  
+                        -------------------------------------------------------*/
+
+/* --------------------------------- Hero sEction  starts  
+                        -------------------------------------------------------*/
+header {
+  background-color: var(--bgcolor);
+  min-height: 100vh;
+  width: 100%;
+}
+
+.main-hero-container {
+  height: 70vh;
+  display: flex;
+  border-radius: 2rem;
+  background: linear-gradient(90deg, #ec4722, #ffffff, #29e853);
+
+}
+
+.main-hero-container h1 {
+  margin-left: 1rem;
+  text-transform: capitalize;
+  font-weight: bolder;
+}
+
+.main-hero-para {
+  font-size: 1.5rem;
+  color: var(--text-color);
+  margin: 3rem 0 5rem 0;
+  font-weight: lighter;
+  width: 75%;
+}
+.main-hero-para1 {
+  font-size: 1.3rem;
+  color: var(--main-text-color);
+  position: relative;
+  margin: 1rem;
+  font-weight: lighter;
+  width: 75%;
+}
+.main-hero-container h3 {
+  
+  font-weight: lighter;
+}
+
+.input-group {
+  position: relative !important;
+}
+
+.form-control-text {
+  position: absolute;
+  height: 5rem;
+  border: none;
+  outline-style: none;
+  padding-left: 1.5rem !important;
+  font-size: 1.4rem;
+  font-weight: lighter;
+}
+
+.input-group-button {
+  position: absolute;
+  right: 51%;
+  top: 0.5rem;
+  color: #fff;
+  background-color: var(--primary-color);
+  height: 4rem;
+  width: 15%;
+  border-radius: 2rem !important;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+}
+
+/* --------------------------------- Work Section below hero section   starts  
+                        -------------------------------------------------------*/
+
+.work-container {
+  width: 80vw;
+  padding: 5rem;
+  box-shadow: 0 0.4rem 1.2rem rgba(0, 0, 0, 0.1);
+  margin-top: 10rem;
+  background-color: #fff;
+  border-radius: 2rem;
+}
+
+.work-container .main-heading {
+  font-size: 3rem;
+  font-weight: bolder;
+  margin-bottom: 4rem;
+  word-spacing: 1rem;
+}
+
+.work-container-subdiv {
+  padding: 0 6rem;
+}
+
+@media (max-width:300px) {
+  .work-container-subdiv {
+    padding: 0 2rem;
+  }
+}
+
+.work-container .sub-heading {
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+.fontawesome-style {
+  font-size: 2.3rem;
+  color: var(--primary-color);
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  background-color: var(--bgcolor);
+  display: grid;
+  place-items: center;
+  text-align: center;
+  margin: 2rem auto;
+}
+/* --------------------------------- Work Section below hero section   ends  
+                        -------------------------------------------------------*/
+
+
+/* --------------------------------- Footer  Section starts  
+                        -------------------------------------------------------*/
+
+footer {
+  margin-top: 10rem;
+  padding: 5rem 0;
+  background: linear-gradient(90deg, #4ce6b2, #c75b5b, #d264c2);
+
+}
+
+
+footer .main-hero-para {
+  margin: 0;
+  color: #fff;
+}
+
+/* --------------------------------- Footer  Section ends  
+                        -------------------------------------------------------*/
+
+/* --------------------------------- responsive media queries  
+                        -------------------------------------------------------*/
+@media (min-width: 1500px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1500px !important;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1400px;
+  }
+}
+
