@@ -38,7 +38,7 @@ h6 {
                         -------------------------------------------------------*/
 
 .navbar-bg {
-  background-color: var(--bgcolor);
+
   padding: 2rem 0;
   z-index: 99;
   position: relative;
@@ -71,7 +71,7 @@ h6 {
 }
 .button {
   border: none;
-  margin-top: 3.5rem;
+  margin-top: 5rem;
   border-radius: 1rem;
   height: 5rem;
   width: 100%;
@@ -150,7 +150,7 @@ h6 {
 /* --------------------------------- Hero sEction  starts  
                         -------------------------------------------------------*/
 header {
-  background-color: var(--bgcolor);
+
   min-height: 100vh;
   width: 100%;
 }
@@ -175,6 +175,7 @@ header {
   margin: 3rem 0 5rem 0;
   font-weight: lighter;
   width: 75%;
+  justify-content: center;
 }
 .main-hero-para1 {
   font-size: 1.3rem;
@@ -225,8 +226,8 @@ header {
 .work-container {
   width: 80vw;
   padding: 5rem;
-  box-shadow: 0 0.4rem 1.2rem rgba(0, 0, 0, 0.1);
-  margin-top: 10rem;
+  box-shadow: 0 0.4rem 1.2rem rgba(159, 157, 157, 0.742);
+  margin-top: 2rem;
   background-color: #fff;
   border-radius: 2rem;
 }
@@ -245,12 +246,15 @@ header {
 @media (max-width:300px) {
   .work-container-subdiv {
     padding: 0 2rem;
+    text-align: center;
   }
+  
 }
 
 .work-container .sub-heading {
   font-size: 2rem;
   font-weight: normal;
+  justify-content: center;
 }
 
 .fontawesome-style {
@@ -274,7 +278,7 @@ header {
 
 footer {
   margin-top: 10rem;
-  padding: 5rem 0;
+  padding: 2rem 0;
   background: linear-gradient(90deg, #4ce6b2, #c75b5b, #d264c2);
 
 }
