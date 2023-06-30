@@ -8,7 +8,7 @@ const Header = () => {
           <div className="row">
             <div className="header-left-side d-flex justify-content-center flex-column align-items-start ">
               <h1 className="display-2">
-                <strong>File Converter</strong>
+                <strong>Video Converter</strong>
               </h1>
               <p className="main-hero-para1">
                 Audify is an online file converter. We support nearly all audio, video, document, ebook, archive, image, spreadsheet, and presentation formats. To get started, use the button below and select files to convert from your computer. This simple converter will help you quickly extract audio from popular video formats (MP4, MOV, MKV, WEBM, AVI, and others).
